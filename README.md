@@ -16,7 +16,7 @@ Repositório contendo slides e códigos de exemplo relacionado a `asyncio` (Pyth
 
 
 ## Slides
-### [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) &nbsp;&nbsp;&nbsp; [PDF](https://github.com/ayharano/aio-exemplo/blob/master/slides/20180118_grupy_sp_aio_exemplo.pdf) &nbsp;&nbsp;&nbsp; [@Speaker Deck](https://speakerdeck.com/ayharano/grupy-sp-2018-01-18-aio-exemplo)
+### [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) &nbsp;&nbsp;&nbsp; [PDF](https://github.com/ayharano/aio-exemplo/blob/master/slides/20180118_grupy_sp_aio_exemplo.pdf) &nbsp;&nbsp;&nbsp; [@Speaker Deck](https://speakerdeck.com/ayharano/usando-asyncio-para-reescrever-processamento-sem-dependencia-em-codigo-concorrente)
 
 
 ## Código
