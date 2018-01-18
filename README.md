@@ -28,7 +28,7 @@ Repositório contendo slides e códigos de exemplo relacionado a `asyncio` (Pyth
 Para efetuar a configuração do ambiente:
 
 ```sh
-$ git clone git@github.com:/ayharano/aio-exemplo.git aio-exemplo # Clona o repositório
+$ git clone https://github.com/ayharano/aio-exemplo.git aio-exemplo # Clona o repositório
 $ cd aio-exemplo      # Ir ao diretório para onde o git clone foi realizado
 $ pip install pipenv  # Instala pipenv a nível de usuário
 $ pipenv update       # Executa pipenv para instalar as dependências e configurar o virtualenv do ambiente
