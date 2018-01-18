@@ -25,12 +25,15 @@ Repositório contendo slides e códigos de exemplo relacionado a `asyncio` (Pyth
 
 ## Modo de uso
 
+Alguns dos módulos contidos nesse repositório usam `f-strings` ([PEP 498 — Literal String Interpolation](https://www.python.org/dev/peps/pep-0498/)), recurso disponível a partir do Python 3.6. Para a gerência de múltiplas versões do Python, incluindo a versão 3.6+, é recomendado o uso do [pyenv](https://github.com/pyenv/pyenv).
+
 Para efetuar a configuração do ambiente:
 
 ```sh
 $ git clone https://github.com/ayharano/aio-exemplo.git aio-exemplo # Clona o repositório
 $ cd aio-exemplo      # Ir ao diretório para onde o git clone foi realizado
-$ pip install pipenv  # Instala pipenv a nível de usuário
+$ pip3 install pipenv # Instala pipenv a nível de usuário
+$ pipenv --python 3.6 # Executa pipenv para configurar a versão do binário do python para o 3.6
 $ pipenv update       # Executa pipenv para instalar as dependências e configurar o virtualenv do ambiente
 ```
 
