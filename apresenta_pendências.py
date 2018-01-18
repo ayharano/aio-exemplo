@@ -63,9 +63,11 @@ async def apresenta_pendências(
     """
 
     # Conjunto das tarefas iniciais.
-    pendentes = set(rótulo
+    rotuladas = set(rótulo
                     for rótulo in rótulos
                     if issubclass(type(rótulo), asyncio.Future))
+
+    pendentes = rotuladas
 
     # A cada tarefa completa, a contagem é zerada.
     # Se, após ciclo segundos, não tiver uma tarefa completa, é
@@ -121,9 +123,6 @@ async def apresenta_pendências(
                 # Indica qual tarefa completou, através de seu rótulo.
                 completadas.add(rótulos[pronto])
 
-                # Zera a contagem de intervalos.
-                contador_intervalos = 0
-
         for completada in sorted(completadas):
             saída.write(f" {completada} completou!\n")
             saída.flush()
@@ -157,7 +156,7 @@ async def apresenta_pendências(
                 contador_intervalos = 0
 
         # Atualiza o conjunto de pendentes.
-        pendentes = ainda_pendentes
+        pendentes = ainda_pendentes.intersection(rotuladas)
 
     # Indica o término com "!".
     saída.write('!\n')
