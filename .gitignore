@@ -1,0 +1,22 @@
+# Diretórios a serem ignorados
+__pycache__
+arquivos_project_gutenberg
+
+# Sufixos de arquivos a serem ignorados
+*.aux
+*.bbl
+*.blg
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.swp
+*.vrb
+
+# Arquivos de sistema a serem ignorados
+.DS_Store
+.localized
+
+# Evitar restrição de pacote atrelado ao sistema do mantenedor original
+Pipfile.lock
