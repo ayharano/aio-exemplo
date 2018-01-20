@@ -23,6 +23,10 @@ Repositório contendo slides e códigos de exemplo relacionado a `asyncio` (Pyth
 ### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &nbsp;&nbsp;&nbsp; [ayharano/aio-exemplo](https://github.com/ayharano/aio-exemplo)
 
 
+## Vídeo
+### [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp; [YouTube](https://www.youtube.com/watch?v=LAkW7bxgHjQ)
+
+
 ## Modo de uso
 
 Alguns dos módulos contidos nesse repositório usam `f-strings` ([PEP 498 — Literal String Interpolation](https://www.python.org/dev/peps/pep-0498/)), recurso disponível a partir do Python 3.6. Para a gerência de múltiplas versões do Python, incluindo a versão 3.6+, é recomendado o uso do [pyenv](https://github.com/pyenv/pyenv).
